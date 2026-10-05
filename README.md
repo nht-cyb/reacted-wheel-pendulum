@@ -65,7 +65,7 @@ reacted-wheel-pendulum/
 ├── firmware/                Arduino test sketches
 │   ├── MotorControlArduino/ Open-loop motor test (L298N, potentiometer, direction button)
 │   └── KalmanFilterMPU/     MPU6050 accelerometer + 1-D Kalman filter
-├── References/              Papers (Cubli, inertia-wheel cubes, ...)
+├── References/              Papers (local only, not pushed)
 ├── Report/                  Project report, schematic, slides
 └── archive/                 Original .rar backups and old Simulink build caches
 ```
@@ -118,3 +118,10 @@ pheromone. Each ant picks a guide solution from the archive (rank-based
 probability controlled by `q`) and samples each gain from a Gaussian around it
 (width scaled by `zeta`). New ants and the archive are merged and the best ones
 are kept.
+
+## References
+
+- [The Cubli: A Cube that can Jump Up and Balance](https://doi.org/10.1109/IROS.2012.6385896) — Gajamohan et al., IROS 2012
+- [Development of a Nonlinear Mechatronic Cube](https://publications.lib.chalmers.se/records/fulltext/233543/233543.pdf) — Bjerke & Pehrsson, Chalmers, 2016
+- [Grey Wolf Optimizer](https://doi.org/10.1016/j.advengsoft.2013.12.007) — Mirjalili et al., 2014
+- [Ant Colony Optimization for Continuous Domains](https://doi.org/10.1016/j.ejor.2006.06.046) — Socha & Dorigo, 2008
